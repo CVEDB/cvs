@@ -5,12 +5,12 @@ import (
 
 	"cloud.google.com/go/pubsub"
 	"cloud.google.com/go/storage"
-	"github.com/CVEDB/csv/config"
-	"github.com/CVEDB/csv/stages/preparation"
-	"github.com/CVEDB/csv/stages/processing"
+	"github.com/CVEDB/cvs/config"
+	"github.com/CVEDB/cvs/stages/preparation"
+	"github.com/CVEDB/cvs/stages/processing"
 
 	log "github.com/golang/glog"
-	idxStorage "github.com/CVEDB/csv/storage"
+	idxStorage "github.com/CVEDB/cvs/storage"
 )
 
 var (
